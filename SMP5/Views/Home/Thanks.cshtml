@@ -1,0 +1,29 @@
+﻿@model SMP5.Models.UserResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="~/Content/About.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+</head>
+<body>
+    <div>
+        <h1>Thank you, @Model.Name!</h1>
+        @if (Model.Willjoin == true)
+        {
+            @:Thank you for joning the clan, Warrior.
+        }
+        else
+        {
+            @:Thank you for joing the clan, Brother.
+        }
+    </div>
+</body>
+</html>

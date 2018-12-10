@@ -1,0 +1,105 @@
+﻿body {
+    margin: 0;
+    background-image: url("/Images/JoinTeam.jpg");
+    background-color: grey;
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering: pixelated;
+   
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    border:solid;
+    border-style: solid;
+    padding: 50px;
+    color: black;
+}
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.field-validation-error {
+    color: yellow;
+    border-style:double;
+    padding: 50px;
+    position:center;
+   
+  
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px thin #f00;
+    background-color: linen;
+}
+
+.validation-summary-errors {
+    font-weight: inherit;
+    color: khaki;
+    border: solid;
+    border-style: solid;
+    padding: 50px;
+    position:center;
+
+   
+}
+
+.validation-summary-valid {
+    display: none;
+    position:center
+
+}
+
+div {
+    border:solid;
+    border-color:black;
+    height:300px;
+    padding: 25px;
+    margin: 0, auto;
+    background: center;
+    color: black;    
+}
+
+fieldset {
+    border:none;
+    position:center;
+    text-align:center;
+}
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+    background-color: black;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.submit-button {
+    font-family: arial, helvetica, sans serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 125px;
+    height: 36px;
+    color: white;
+    background-color: maroon;
+    border: none;
+    border-radius: 10px;
+}
+.submit-button:hover {
+        background-color: blue;
+        cursor: pointer;
+    }

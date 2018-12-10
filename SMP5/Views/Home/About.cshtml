@@ -1,0 +1,31 @@
+﻿@model SMP5.Models.UserResponse
+
+@{
+    ViewBag.Title = "About Page" ;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/About.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>About</title>
+</head>
+<body>
+    <div>
+        
+        @ViewBag.View
+        <h2>
+
+            Welcome to SamuraiTeam.com, where you choose
+            our squad and fight each other on a online games, debate on any topics,
+            and rewards given to the top players.
+            All you have to do is join.
+
+        </h2>
+        @Html.ActionLink("Index", "Home Page")
+    
+    </div>
+</body>
+</html>

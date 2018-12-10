@@ -1,0 +1,95 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: darkred;
+    background-image: url(/Images/SamuraiTeamPg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering: pixelated;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    
+    border: solid;
+    border-style: solid;
+    color: black;
+}
+
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+
+
+.panel form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer {
+    border-top: 2px solid cyan;
+    font-family: 'Special Elite';
+    color: darkmagenta;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    background-color: #222222;
+}
+
+.jumbotron {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+    .jumbotron h1 {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+ 
+    }
+
+
+
+.lead {
+    font-family:Constantia;
+    color: crimson;
+}
+
+.navbar {
+    border-bottom: 2px solid crimson;
+    background-color:black ;
+    min-width:400px;
+    
+    min-height:100px;
+    max-height:400px;
+}
+
+.navbar-brand {
+    font-family: 'Samurai';
+    font-size: 36px;
+}
+
+.navbar-nav {
+    font-family: 'Smaurai';
+    font-size: 18px;
+    float: right;
+    margin-right: 100px;
+}
+
+    .navbar-nav a:link {
+        color: hotpink;
+    }
+
+.panel {
+    background-color: black;
+}
+
+

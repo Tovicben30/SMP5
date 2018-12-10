@@ -1,0 +1,48 @@
+﻿@model SMP5.Models.UserResponse
+
+@{
+     ViewBag.Title = "JoinForm Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/Style.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>JoinForm</title>
+</head>
+<body>
+   
+    @using (Html.BeginForm())
+    {
+
+        @Html.ValidationSummary()
+        <fieldset>
+            <h2>
+                Your Name: @Html.TextBoxFor(x => x.Name)
+                New User Name: @Html.TextBoxFor(x => x.UserName)
+                Your Email: @Html.TextBoxFor(x => x.Email)
+                Your Password: @Html.TextBoxFor(x => x.Password, new { @type = "password" })
+
+
+
+                Will you Join?
+                @Html.DropDownListFor(x => x.Willjoin, new[] {
+        new SelectListItem() {Text = "Crimson Tiger Samurai",
+            Value = bool.TrueString},
+        new SelectListItem() {Text = "Cerulean Dragon Samurai",
+            Value = bool.FalseString},
+    }, "Choose an option")
+
+
+
+                <input class="submit-button" type="submit" value="Submit" />
+            </h2>
+        </fieldset>
+
+    }
+           
+    @Html.ActionLink("About", "About Page")
+</body>
+</html>

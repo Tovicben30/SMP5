@@ -1,0 +1,45 @@
+﻿body {
+    background-image: url(/Images/SamuraiTeamPg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering: pixelated;
+
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid;
+    border-style: solid;
+    color: black;
+}
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.text-center {
+    position:center;
+}
+h2 {
+    color: crimson;
+    background-color: #222222;
+    
+}
+
+p {
+    color: crimson;
+    background-color: #222222;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align:center;
+    border:medium;
+}
+div {
+    
+    min-height:300px;
+    padding: 100px;
+    color: black;
+    position: center;
+}

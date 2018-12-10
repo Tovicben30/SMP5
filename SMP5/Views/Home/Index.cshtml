@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+
+    <link href="∼/Content/bootstrap.css" rel="stylesheet" />
+    <link href="∼/Content/bootstrap-theme.css" rel="stylesheet" />
+
+</head>
+<body>
+<div class="row">    
+    <div class="text-center">
+        @using (Html.BeginForm("Join", "Home"))
+        {
+            <h2>
+                Welcome to the Samurai Page.
+                This Page is explore the different Samurai's that are selected, and to give people awards once a month. If you want to please join us in the link below
+            </h2>
+           
+
+            
+            <div class="btn btn-success">
+           
+                @Html.ActionLink("Join", "JoinForm")
+            </div>
+              
+        }
+    </div>
+</div>
+</body>
+
+</html>
